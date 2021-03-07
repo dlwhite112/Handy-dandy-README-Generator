@@ -1,30 +1,34 @@
-# TITLE 
-  > Description : DESCRIPTION
+# title 
+  > Description : breif descriptions
   
   ## Table of contents
   * [General info](#general-info)
   * [Screenshots](#screenshots)
-  * [Tools](#technologies)
-  * [Setup](#setup)
+  * [Tools](#tools)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Link](#link)
   * [Questions](#Questions)
   
   
   ## General info : 
 
   ### Installation 
-    INSTALLATION PROCESS
+    installation processsss
 
   ### Usage
-    INTERACTION LIFE
+    interacting
 
   ### License
-  [![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/icenses/MIT)
 
   ### Contributing
-    NOT ANY OTHERS
+    N/A
 
   ### Tests
-    TESTING THINGS
+    TEST Instructions
   
   
   ## Screenshots
@@ -42,5 +46,5 @@
   
   ## Questions
   Please see my GitHub: https://github.com/dlwhite112
-  You can ask me questions here: dlshite112@gmail.com
+  You can ask me questions here: dlwhite112@gmail.com
   

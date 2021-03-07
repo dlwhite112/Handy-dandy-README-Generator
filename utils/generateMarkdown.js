@@ -44,8 +44,12 @@ const generateREADME = (answers) =>
   ## Table of contents
   * [General info](#general-info)
   * [Screenshots](#screenshots)
-  * [Tools](#technologies)
-  * [Setup](#setup)
+  * [Tools](#tools)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Link](#link)
   * [Questions](#Questions)
   
   
@@ -83,10 +87,6 @@ const generateREADME = (answers) =>
   Please see my GitHub: https://github.com/${answers.github}
   You can ask me questions here: ${answers.email}
   `;
-// function generateMarkdown(data) {
-//   return `# ${data.title}
 
-// `;
-// }
-console.log(renderLicenseSection("IBM"))
+
 module.exports = generateREADME;

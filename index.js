@@ -2,7 +2,6 @@
 
 const inquirer = require("inquirer");
 const fs = require("fs");
-const util = require("util");
 const generateREADME = require("./utils/generateMarkdown")
 
 
@@ -56,57 +55,6 @@ const promptUser = () => {
     },
   ]);
 };
-  
-
-
-
-//Function to write README file
-// const generateREADME = (answers) =>
-//   `# ${answers.title} 
-//   > Description : ${answers.description}
-  
-//   ## Table of contents
-//   * [General info](#general-info)
-//   * [Screenshots](#screenshots)
-//   * [Tools](#technologies)
-//   * [Setup](#setup)
-//   * [Questions](#Questions)
-  
-  
-//   ## General info : 
-
-//   ### Installation 
-//     ${answers.installation}
-
-//   ### Usage
-//     ${answers.interact}
-
-//   ${renderLicenseSection(answers.license)}
-
-//   ### Contributing
-//     ${answers.contributors}
-
-//   ### Tests
-//     ${answers.instructions}
-  
-  
-//   ## Screenshots
-
-  
-  
-//   ## Tools
-//   * Tech 1 - version 1.0
-//   * Tech 2 - version 2.0
-//   * Tech 3 - version 3.0
-  
-//   ## Link
-  
-  
-  
-//   ## Questions
-//   Please see my GitHub: https://github.com/${answers.github}
-//   You can ask me questions here: ${answers.email}
-//   `;
 
 //  Function to initialize app
 const init = () => {
